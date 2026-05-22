@@ -7,3 +7,4 @@ pandas
 scikit-learn
 dataset 
 keras
+opencv-python-headless
