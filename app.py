@@ -110,7 +110,7 @@ st.markdown('<p class="subtitle">Streamlit Cyber Intelligence Node</p>', unsafe_
 # ---------------- AI MODEL CORE ENGINE ----------------
 @st.cache_resource
 def load_deepfake_engine():
-    return load_model("deepfake_model_v2.h5")
+    return load_model("deepfake_model_v2.keras", compile=False)
 
 model = load_deepfake_engine()
 face_cascade = cv2.CascadeClassifier("haarcascade.xml")
