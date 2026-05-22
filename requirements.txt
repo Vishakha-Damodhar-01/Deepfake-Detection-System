@@ -8,3 +8,5 @@ scikit-learn
 dataset 
 keras
 opencv-python-headless
+matplotlib 
+PIL
