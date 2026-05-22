@@ -110,6 +110,7 @@ st.markdown('<p class="subtitle">Streamlit Cyber Intelligence Node</p>', unsafe_
 # ---------------- AI MODEL CORE ENGINE ----------------
 @st.cache_resource
 def load_deepfake_engine():
+    # Changed to .keras and added compile=False
     return load_model("deepfake_model_v2.keras", compile=False)
 
 model = load_deepfake_engine()
