@@ -1,5 +1,6 @@
 # 🛡️ DeepSentinel AI  
 ### An Uncertainty-Aware Deepfake Detection System using MobileNetV2  
+live demo [DeepSentinel AI](https://deepsentinel-ai.streamlit.app/)
 
 
 ## 📌 Overview  
